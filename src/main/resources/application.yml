@@ -1,0 +1,15 @@
+server:
+  address: 127.0.0.1
+  port: 8080
+spring:
+  application:
+    name: studygram
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:postgresql://localhost:5432/studygram?stringtype=unspecified
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+access-token-key: c2Fmc2RhZmsyM2U0cTNkc2FkMTI0MjE0MTJkbXNhY3BzYWM=
